@@ -1,0 +1,8 @@
+Añadir esto en styles.xml
+
+<style name="menu_labels_style" >
+
+        <item name= "android:background">@drawable/fab_label</item>
+        <item name="android:textColor">#ffffff</item>
+
+    </style>
