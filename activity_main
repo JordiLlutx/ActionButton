@@ -1,0 +1,46 @@
+<RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab"
+            android:layout_margin="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            app:fab_addButtonColorNormal="#4152b6"
+            app:fab_addButtonColorPressed="#3b52dc"
+
+            app:fab_labelStyle="@style/menu_labels_style"
+            >
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/añadir"
+                app:fab_icon="@drawable/ic_colorize"
+                app:fab_colorNormal="#4152b6"
+                app:fab_colorPressed="#3b52dc"
+                app:fab_size="mini"
+                app:fab_title="Añadir"
+
+                />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eliminar"
+                app:fab_icon="@drawable/ic_delete"
+                app:fab_colorNormal="#4152b6"
+                app:fab_colorPressed="#3b52dc"
+                app:fab_size="mini"
+                app:fab_title="Eliminar"
+
+                />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    </RelativeLayout>
